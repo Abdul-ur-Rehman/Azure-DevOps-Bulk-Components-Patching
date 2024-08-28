@@ -4,18 +4,17 @@ import json
 import pandas as pd
 
 # Azure DevOps organization and project details
-organization = "astera"
-project = "Centerprise"
+organization = #Write your organization name
+project = #Write project name
 
 # Personal Access Token (PAT) for authentication
-pat = "cmnds7rklampik25zp6xke7brl5xpm2qzufbaa2spoo2nlqschra"
+pat = #provide personal access token here
 
 # ID of the query that returns work item IDs
 # query_id = "555db6d9-abae-4336-a021-e99756558281"
-query_id = "0da36394-a79f-4a75-a4fe-7b18561f3cc4"
+query_id = #write query here
 # Azure DevOps REST API base URL
-base_url = f"https://dev.azure.com/{organization}/{project}/_apis/wit"
-
+base_url = #write your base url here
 
 # Function to get work item IDs from the query
 def get_work_item_ids():
